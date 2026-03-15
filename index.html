@@ -4,15 +4,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lux Viss Recruitment</title>
+<title>Lux Viss Workforce Solutions</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<!-- WhatsApp Contact Button -->
-<a href="https://wa.me/233XXXXXXXXX" target="_blank" class="whatsapp-btn">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
-</a>
 
 <body>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/233XXXXXXXXX" target="_blank" class="whatsapp-btn">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+</a>
 
 <!-- NAVBAR -->
 
@@ -22,8 +23,13 @@
 Lux <span>Viss</span>
 </div>
 
-<ul class="nav-links">
+<div class="hamburger" id="hamburger">☰</div>
+
+<ul class="nav-links" id="navLinks">
+<li><a href="#about">About</a></li>
 <li><a href="#services">Services</a></li>
+<li><a href="#employers">Employers</a></li>
+<li><a href="#jobseekers">Job Seekers</a></li>
 <li><a href="contact.html">Contact</a></li>
 </ul>
 
@@ -36,11 +42,11 @@ Lux <span>Viss</span>
 
 <div class="hero-content">
 
-<h1>Reliable Workforce Solutions</h1>
+<h1>Reliable Workforce & Contract Solutions</h1>
 
 <p>
-Lux Viss connects companies with dependable workers across
-hospitality, construction, retail and manufacturing industries.
+Lux Viss connects businesses with skilled workers,
+contractors and employment opportunities across Ghana.
 </p>
 
 <a class="cta" href="#services">Explore Services</a>
@@ -51,47 +57,98 @@ hospitality, construction, retail and manufacturing industries.
 
 
 <!-- ABOUT -->
-<section class="about fade-in">
-  <h2>About Lux Viss</h2>
-  <p>
-    Lux Viss is a recruitment and workforce sourcing service dedicated to
-    helping companies quickly find reliable workers. We support businesses
-    with staffing solutions that keep operations running efficiently.
-  </p>
+
+<section id="about" class="about fade-in">
+
+<h2>About Lux Viss</h2>
+
+<p>
+Lux Viss is a workforce and recruitment service helping companies
+find dependable workers and contractors while helping job seekers
+discover new opportunities.
+</p>
+
 </section>
+
 
 <!-- SERVICES -->
+
 <section id="services" class="services fade-in">
-  <h2>Recruitment Services</h2>
 
-  <div class="grid">
-    <div class="card fade-in" onclick="goToContact('Hotel Staff')">
-      <h3>Hotel Staff</h3>
-      <p>Receptionists, cleaners, waiters and hospitality personnel.</p>
-    </div>
+<h2>Our Services</h2>
 
-    <div class="card fade-in" onclick="goToContact('Factory Workers')">
-      <h3>Factory Workers</h3>
-      <p>Reliable manpower for manufacturing companies.</p>
-    </div>
+<div class="grid">
 
-    <div class="card fade-in" onclick="goToContact('Construction Workers')">
-      <h3>Construction Workers</h3>
-      <p>Skilled labourers and technicians for building projects.</p>
-    </div>
+<div class="card fade-in" onclick="goToContact('Hotel Staff')">
+<h3>Hotel Staff</h3>
+<p>Receptionists, waiters, cleaners and hospitality workers.</p>
+</div>
 
-    <div class="card fade-in" onclick="goToContact('Sales & Retail')">
-      <h3>Sales & Retail</h3>
-      <p>Sales assistants and shop attendants.</p>
-    </div>
-  </div>
+<div class="card fade-in" onclick="goToContact('Factory Workers')">
+<h3>Factory Workers</h3>
+<p>Reliable manpower for manufacturing companies.</p>
+</div>
+
+<div class="card fade-in" onclick="goToContact('Construction Workers')">
+<h3>Construction Workers</h3>
+<p>Skilled labourers and technicians for building projects.</p>
+</div>
+
+<div class="card fade-in" onclick="goToContact('Sales & Retail')">
+<h3>Sales & Retail</h3>
+<p>Sales assistants and shop attendants.</p>
+</div>
+
+<div class="card fade-in" onclick="goToContact('Contractor Sourcing')">
+<h3>Contractor Sourcing</h3>
+<p>We connect businesses with reliable contractors.</p>
+</div>
+
+<div class="card fade-in" onclick="goToContact('Contract Opportunities')">
+<h3>Contract Opportunities</h3>
+<p>Helping contractors find new projects.</p>
+</div>
+
+</div>
+
 </section>
 
 
+<!-- EMPLOYERS -->
+
+<section id="employers" class="about fade-in">
+
+<h2>For Employers</h2>
+
+<p>
+Need workers quickly? Lux Viss helps companies recruit reliable
+staff and contractors for projects and daily operations.
+</p>
+
+</section>
+
+
+<!-- JOB SEEKERS -->
+
+<section id="jobseekers" class="about fade-in">
+
+<h2>For Job Seekers</h2>
+
+<p>
+Looking for work? Lux Viss helps workers connect with companies
+that are hiring across hospitality, construction, retail
+and manufacturing industries.
+</p>
+
+<a class="cta" href="contact.html">Apply for Jobs</a>
+
+</section>
 
 
 <footer>
-<p>© 2026 Lux Viss Recruitment Services</p>
+
+<p>© 2026 Lux Viss Workforce & Recruitment Services</p>
+
 </footer>
 
 <script src="script.js"></script>
